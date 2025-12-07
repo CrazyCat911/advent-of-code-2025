@@ -5,6 +5,7 @@ with open("3/input.dat", "r") as f:
 formatted_input = [list(bank) for bank in plaintext_input.strip().split("\n")]
 
 ### THE CODE ###
+
 def get_joltage(bank: list[str], batteries: int = 2) -> int:
     digits = []
     remainder = bank

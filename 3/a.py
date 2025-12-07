@@ -5,6 +5,7 @@ with open("3/input.dat", "r") as f:
 formatted_input = [list(bank) for bank in plaintext_input.strip().split("\n")]
 
 ### THE CODE ###
+
 def get_joltage(bank: list[str]) -> int:
     first_digit = max(bank[:-1], key=lambda v: int(v))
     first_digit_location = bank.index(first_digit)
