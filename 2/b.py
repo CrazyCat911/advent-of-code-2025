@@ -5,6 +5,7 @@ with open("2/input.dat", "r") as f:
 formatted_input = [[int(v) for v in v.split("-")] for v in plaintext_input.strip().split(",")]
 
 ### THE CODE ###
+
 def id_invalid(id):
     number_as_str = str(number)
 

@@ -5,6 +5,7 @@ with open("1/input.dat", "r") as f:
 formatted_input = plaintext_input.strip().split("\n")
 
 ### THE CODE ###
+
 dial_location = 50
 password_count = 0
 
