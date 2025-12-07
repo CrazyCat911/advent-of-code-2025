@@ -9,8 +9,6 @@ def get_joltage(bank: list[str], batteries: int = 2) -> int:
     digits = []
     remainder = bank
 
-    print("".join(bank))
-
     for i in range(batteries):
         digit = max(remainder[:-((batteries - 1) - len(digits))] if -((batteries - 1) - len(digits)) != 0 else remainder, key=int)
         digit_location = remainder.index(digit)
