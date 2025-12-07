@@ -5,7 +5,6 @@ with open("2/input.dat", "r") as f:
 formatted_input = [[int(v) for v in v.split("-")] for v in plaintext_input.strip().split(",")]
 
 ### THE CODE ###
-
 total_invalid = 0
 
 for id_range in formatted_input:
