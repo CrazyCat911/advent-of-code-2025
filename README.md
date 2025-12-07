@@ -1,6 +1,6 @@
 # Advent of Code 2025
 
-This is my personal repo for the [2025 Advent of Code](https://adventofcode.com/2025/)
+This is my personal repo for the [2025 Advent of Code](https://adventofcode.com/2025/).
 
 ## How to run
 
