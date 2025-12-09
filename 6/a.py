@@ -5,6 +5,8 @@ with open("6/input.dat", "r") as f:
 operators = [v for v in plaintext_input.strip().split("\n")[-1].split(" ") if v]
 numbers = [[int(v) for v in row.split(" ") if v] for row in plaintext_input.strip().split("\n")[:-1]]
 
+### THE CODE ###
+
 grand_total = 0
 
 for q, op in enumerate(operators):
